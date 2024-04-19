@@ -10,7 +10,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>dzoms</groupId>
+    <groupId>com.dzoms</groupId>
     <artifactId>backend-parent</artifactId>
     <version>1.0.0</version>
     <name>Backend Parent</name>
@@ -74,11 +74,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-docker-compose</artifactId>
-            <version>${spring.docker-compose.version}</version>
         </dependency>
 
         <!-- Spring Security -->
